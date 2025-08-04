@@ -1,0 +1,40 @@
+# Currency Converter – Java Project
+
+A console-based Java application that converts currencies using **real-time exchange rates from a REST API**. This project was created as part of the **Pinnacle Labs 2025 Java Development Internship Program**.
+
+##Overview
+This Currency Converter allows users to:
+- Enter source and target currency codes
+- Input an amount to convert
+- Get real-time converted results using a live API (ExchangeRate API)
+
+## Technologies Used
+- Java (JDK 17)
+- IntelliJ IDEA
+- REST API (https://api.exchangerate.host)
+- Scanner class for user input
+- Exception handling and basic input validation
+
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+## Sample Output
+Supported currencies include: USD, INR, EUR, GBP, JPY, CAD, AUD, CNY, CHF, AED, etc.
+You must enter valid 3-letter currency codes (e.g., USD, INR)
+
+Enter the source currency code: inr
+Enter the target currency code: usd
+Enter amount: 1000
+ 1000.00 INR = 11.45 USD
+Do you want to convert again? (Y/N): y
+Enter the source currency code: inr
+Enter the target currency code: eur
+Enter amount: 899
+ 899.00 INR = 8.93 EUR
+
+Do you want to convert again? (Y/N): n
+Thank you for using the Currency Converter!
+
